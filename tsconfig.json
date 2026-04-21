@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "src/components/Footer.jsx", "src/components/Header.jsx", "src/components/Problem.jsx", "src/components/secondhero.jsx", "src/components/Services.jsx", "src/app/page.jsx", "src/components/Contact.jsx"  ],
   "exclude": ["node_modules"]
 }
