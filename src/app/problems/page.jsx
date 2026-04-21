@@ -1,5 +1,5 @@
-import Problems from "@/components/Problems";
+import Problem from "@/components/Problem";  // Changed from "Problems" to "Problem"
 
 export default function ProblemsPage() {
-  return <Problems />;
+  return <Problem />;  // Changed from <Problems /> to <Problem />
 }
