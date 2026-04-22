@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function SecondHero() {
   return (
-    <div className=" p-10  text-lg">
+    <div className="  ">
       <h1>We do not do average.</h1>
       <p>
         Every project is built from scratch. No templates. No shortcuts. No
