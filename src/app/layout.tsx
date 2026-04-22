@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -7,7 +8,7 @@ export const metadata = {
   description: "We turn invisible businesses into brands that own the room.",
 };
 
-export default function RootLayout({children}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
