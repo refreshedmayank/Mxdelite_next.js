@@ -9,7 +9,7 @@ function Header() {
   
   return (
     <div>
-      <div className="header">
+      <div className="header fixed top-0 left-0 right-0  bg-black text-white flex justify-between text-md border z-50 h-[40px] items-center">
         <button className="w-10 menu-btn" onClick={() => setisopen(!isopen)}>
           {isopen ? "x" : "☰"}
         </button>
@@ -17,9 +17,9 @@ function Header() {
         <div className="w-10"></div>
       </div>
       {isopen && (
-        <nav className="menu">
-          <div className="menu-bg">
-            <div className="mt-20 p-6 flex flex-col gap-10 text-center">
+        <nav className="bg-black text-white fixed top-[40px] left-0 right-0 bottom-0 z-40 flex justify-center items-center ">
+          
+            <div className="flex flex-col gap-6 text-center ">
               <Link href="/" onClick={closemenu}>Home</Link>
               <Link href="/services" onClick={closemenu}>
                 Services
@@ -31,7 +31,7 @@ function Header() {
                 Problems
               </Link>
             </div>
-          </div>
+        
         </nav>
       )}
     </div>
