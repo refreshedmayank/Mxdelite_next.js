@@ -11,8 +11,8 @@ function Footer() {
   }
   
   return (
-    <div className="p-4 ">
-    <div className="footer">
+    <div className=" mt-auto py-4 ">
+    <div className="footer flex justify-center gap-4 ">
       <h2 onClick={sendtoinstagram} >Instagram</h2>
       <h2 onClick={sendtoemail}>Email</h2>
     </div>
