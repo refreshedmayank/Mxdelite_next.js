@@ -9,7 +9,7 @@ function Header() {
   
   return (
     <div>
-      <div className="header fixed top-0 left-0 right-0  bg-black text-white flex justify-between text-md border z-50 h-[40px] items-center">
+      <div className="header fixed top-0 left-0 right-0  bg-black text-white flex justify-between text-md z-50 h-[40px] items-center">
         <button className="w-10 menu-btn" onClick={() => setisopen(!isopen)}>
           {isopen ? "x" : "☰"}
         </button>
